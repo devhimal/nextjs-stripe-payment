@@ -15,13 +15,15 @@ This project demonstrates how to integrate **Stripe** payment gateway with a **s
 ### 1. Clone the repository
 
 ````bash
-git@github.com:devhimal/nextjs-stripe-payment.git```
+git@github.com:devhimal/nextjs-stripe-payment.git
+
+```
 
 ### 2. Install dependencies
 
 Navigate to the project directory and install the required dependencies:
 
-```bash
+
 cd nextjs-stripe-payment
 npm install
 ````
