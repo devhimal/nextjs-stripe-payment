@@ -17,7 +17,6 @@ This project demonstrates how to integrate **Stripe** payment gateway with a **s
 ````bash
 git@github.com:devhimal/nextjs-stripe-payment.git
 
-```
 
 ### 2. Install dependencies
 
@@ -48,7 +47,7 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5c
 To run the development server, use the following command:
 
 ```bash
-npm run dev
+npm run dev or yarn run dev
 ```
 
 The app should now be running at `http://localhost:3000`.
