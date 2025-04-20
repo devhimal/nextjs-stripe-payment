@@ -1,72 +1,135 @@
-# Next.js Stripe Payment
 
-This project demonstrates how to integrate **Stripe** payment gateway with a **subscription-based payment system** in a **Next.js** application. The implementation uses **TypeScript** to ensure type safety and better development practices.
+# NEXTJS-STRIPE-PAYMENT  
+**Seamless payments, effortless user experiences, limitless growth.**
 
-> **Note**: This repository is created for **learning purposes** to understand how to implement payment systems using **Stripe** and **Next.js**.
+---
 
-## Features
+## 🚀 Built With
 
-- **Subscription-based payment system** using Stripe
-- Integration with Stripe Checkout for secure and easy payment handling
-- Built with **Next.js** and **TypeScript** for better structure and scalability
+- [Next.js](https://nextjs.org/)
+- [Stripe](https://stripe.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [DaisyUI](https://daisyui.com/)
+- [Supabase](https://supabase.com/)
+- [PostCSS](https://postcss.org/)
+- [Autoprefixer](https://github.com/postcss/autoprefixer)
+- [ESLint](https://eslint.org/)
+- [Yarn](https://yarnpkg.com/) / [NPM](https://www.npmjs.com/)
+- JSON
 
-## Setup and Installation
+---
 
-### 1. Clone the repository
+## 📚 Table of Contents
 
-````bash
-git@github.com:devhimal/nextjs-stripe-payment.git
+- [Overview](#overview)  
+- [Getting Started](#getting-started)  
+  - [Prerequisites](#prerequisites)  
+  - [Installation](#installation)  
+  - [Usage](#usage)  
+- [Testing](#testing)  
 
+---
 
-### 2. Install dependencies
+## 📖 Overview
 
-Navigate to the project directory and install the required dependencies:
+`nextjs-stripe-payment` is a powerful developer tool that simplifies the integration of Stripe payment processing within Next.js applications. It leverages modern technologies to deliver a seamless e-commerce experience.
 
+### 🌟 Why Use `nextjs-stripe-payment`?
 
-cd nextjs-stripe-payment
-npm install
-````
+- 💳 **Seamless Stripe Integration**: Quick and easy payment processing.
+- 🔒 **User Authentication with Supabase**: Secure and scalable user management.
+- 🎨 **Responsive Design with Tailwind CSS**: Beautiful UI across all devices.
+- 📜 **TypeScript Support**: Strong typing for cleaner, more reliable code.
+- 🔄 **Webhook Handling**: Automatically updates subscriptions and confirms payments.
+- 🌍 **Global Styles and Theming**: Easily customizable to match your brand.
 
-### 3. Set up environment variables
+---
 
-Create a `.env.local` file in the root of the project and add your Stripe API keys:
+## ⚙️ Getting Started
 
-```
-NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_
-STRIPE_SECRET_KEY=sk_test_
-STRIPE_WEBHOOK_SECRET=whsec_
+### ✅ Prerequisites
 
-NEXT_PUBLIC_SUPABASE_URL=https://sgywvtibahdftby.supabase.co
-SUPABASE_SECRET_KEY=
-NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5c
+Ensure you have the following installed:
 
-```
+- TypeScript
+- Node.js
+- Yarn or NPM
 
-### 4. Run the application
+---
 
-To run the development server, use the following command:
+### 📦 Installation
+
+1. **Clone the Repository**
 
 ```bash
-npm run dev or yarn run dev
+git clone https://github.com/devhimal/nextjs-stripe-payment
 ```
 
-The app should now be running at `http://localhost:3000`.
+2. **Navigate to the Project Folder**
 
-## Usage
+```bash
+cd nextjs-stripe-payment
+```
 
-- The app allows users to create a subscription by selecting a payment plan.
-- Stripe Checkout is used to securely handle the payments.
-- The backend creates a Stripe session and redirects users to Stripe's hosted payment page.
+3. **Install Dependencies**
 
-## Learning Resources
+Using Yarn:
 
-This repository was built as part of a learning process to integrate **Stripe** with a **Next.js** application. The resources used are:
+```bash
+yarn install
+```
 
-- [Stripe Documentation](https://stripe.com/docs)
-- [Next.js Documentation](https://nextjs.org/docs)
-- [Stripe API Reference](https://stripe.com/docs/api)
+Using NPM:
 
-## License
+```bash
+npm install
+```
 
-This project is open-source and available under the [MIT License](LICENSE).
-# nextjs-stripe-payment
+---
+
+### ▶️ Usage
+
+To start the development server:
+
+Using Yarn:
+
+```bash
+yarn start
+```
+
+Using NPM:
+
+```bash
+npm start
+```
+
+---
+
+## 🧪 Testing
+
+> ⚠️ Note: Replace `{test_framework}` with the actual testing library used (e.g., Jest, Vitest, etc.)
+
+Using Yarn:
+
+```bash
+yarn test
+```
+
+Using NPM:
+
+```bash
+npm test
+```
+
+---
+
+## 🔝 Return
+
+Thanks for using `nextjs-stripe-payment`! If you find it useful, consider ⭐ starring the repo and sharing it.
+
+---
+```
+
+Let me know if you'd like me to auto-fill `{test_framework}` or add badges (build passing, license, etc.) for GitHub!
